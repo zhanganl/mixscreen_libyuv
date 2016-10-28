@@ -1,0 +1,7 @@
+此工程是在libyuv的基础上完成的。
+工程使用步骤：
+1：打开mix_screen.sln
+2：在mix_screen/mix_screen文件夹下放入YUV文件
+3：在main中将width和height根据放入的yuv做相应改变
+
+联系邮箱：1178009746@qq.com
