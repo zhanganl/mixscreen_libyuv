@@ -1,0 +1,96 @@
+﻿Build started 2016/10/28 11:11:39.
+     1>Project "E:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\mix_screen\mix_screen\mix_screen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /I..\..\include\libyuv /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\compare.cc ..\..\source\compare_common.cc ..\..\source\compare_gcc.cc ..\..\source\compare_neon.cc ..\..\source\compare_neon64.cc ..\..\source\compare_win.cc ..\..\source\convert.cc ..\..\source\convert_argb.cc ..\..\source\convert_from.cc ..\..\source\convert_from_argb.cc ..\..\source\convert_jpeg.cc ..\..\source\convert_to_argb.cc ..\..\source\convert_to_i420.cc ..\..\source\cpu_id.cc ..\..\source\mjpeg_decoder.cc ..\..\source\mjpeg_validate.cc ..\..\source\planar_functions.cc ..\..\source\rotate.cc ..\..\source\rotate_argb.cc ..\..\source\rotate_mips.cc ..\..\source\rotate_neon.cc ..\..\source\rotate_neon64.cc ..\..\source\row_any.cc ..\..\source\row_common.cc ..\..\source\row_gcc.cc ..\..\source\row_mips.cc ..\..\source\row_neon.cc ..\..\source\row_neon64.cc ..\..\source\row_win.cc ..\..\source\scale.cc ..\..\source\scale_any.cc ..\..\source\scale_argb.cc ..\..\source\scale_common.cc ..\..\source\scale_gcc.cc ..\..\source\scale_mips.cc ..\..\source\scale_neon.cc ..\..\source\scale_neon64.cc ..\..\source\scale_win.cc ..\..\source\video_common.cc main.cpp
+         main.cpp
+         video_common.cc
+         scale_win.cc
+         scale_neon64.cc
+         scale_neon.cc
+         scale_mips.cc
+         scale_gcc.cc
+         scale_common.cc
+         scale_argb.cc
+         scale_any.cc
+         scale.cc
+         row_win.cc
+         row_neon64.cc
+         row_neon.cc
+         row_mips.cc
+         row_gcc.cc
+         row_common.cc
+         row_any.cc
+         rotate_neon64.cc
+         rotate_neon.cc
+         Generating Code...
+     1>e:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\source\row_win.cc(597): warning C4752: found Intel(R) Advanced Vector Extensions; consider using /arch:AVX
+     1>e:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\source\row_win.cc(548): warning C4752: found Intel(R) Advanced Vector Extensions; consider using /arch:AVX
+         Compiling...
+         rotate_mips.cc
+         rotate_argb.cc
+         rotate.cc
+         planar_functions.cc
+         mjpeg_validate.cc
+         mjpeg_decoder.cc
+         cpu_id.cc
+         convert_to_i420.cc
+         convert_to_argb.cc
+         convert_jpeg.cc
+         convert_from_argb.cc
+         convert_from.cc
+         convert_argb.cc
+         convert.cc
+         compare_win.cc
+         compare_neon64.cc
+         compare_neon.cc
+         compare_gcc.cc
+         compare_common.cc
+         compare.cc
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\mix_screen\Debug\mix_screen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\mix_screen\Debug\mix_screen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\mix_screen\Debug\mix_screen.lib" /MACHINE:X86 Debug\compare.obj
+         Debug\compare_common.obj
+         Debug\compare_gcc.obj
+         Debug\compare_neon.obj
+         Debug\compare_neon64.obj
+         Debug\compare_win.obj
+         Debug\convert.obj
+         Debug\convert_argb.obj
+         Debug\convert_from.obj
+         Debug\convert_from_argb.obj
+         Debug\convert_jpeg.obj
+         Debug\convert_to_argb.obj
+         Debug\convert_to_i420.obj
+         Debug\cpu_id.obj
+         Debug\mjpeg_decoder.obj
+         Debug\mjpeg_validate.obj
+         Debug\planar_functions.obj
+         Debug\rotate.obj
+         Debug\rotate_argb.obj
+         Debug\rotate_mips.obj
+         Debug\rotate_neon.obj
+         Debug\rotate_neon64.obj
+         Debug\row_any.obj
+         Debug\row_common.obj
+         Debug\row_gcc.obj
+         Debug\row_mips.obj
+         Debug\row_neon.obj
+         Debug\row_neon64.obj
+         Debug\row_win.obj
+         Debug\scale.obj
+         Debug\scale_any.obj
+         Debug\scale_argb.obj
+         Debug\scale_common.obj
+         Debug\scale_gcc.obj
+         Debug\scale_mips.obj
+         Debug\scale_neon.obj
+         Debug\scale_neon64.obj
+         Debug\scale_win.obj
+         Debug\video_common.obj
+         Debug\main.obj
+         mix_screen.vcxproj -> E:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\mix_screen\Debug\mix_screen.exe
+     1>Done Building Project "E:\github_my_commit\mixscreen_libyuv\mixscreen_libyuv\mix_screen\mix_screen\mix_screen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66
